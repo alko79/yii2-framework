@@ -72,7 +72,7 @@ class GridView extends BaseListView
      * @var array the HTML attributes for the grid table element.
      * @see \yii\helpers\Html::renderTagAttributes() for details on how attributes are being rendered.
      */
-    public $tableOptions = ['class' => 'table table-sm table-bordered'];
+    public $tableOptions = ['class' => 'table table-sm table-bordered table-hover'];
     
     /**
      * @var array the HTML attributes for the container tag of the grid view.
